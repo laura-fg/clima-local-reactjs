@@ -35,7 +35,7 @@ function App() {
      )}
      else if(weather == false) {
        return(
-        <div className="box">  <div className="background-1"> <img src={climaTempo}/> AGUARDE...... </div></div>
+        <div className="box">  <div className="background-1"> <img src={climaTempo}/> AGUARDE </div></div>
        )
      }
      else{
