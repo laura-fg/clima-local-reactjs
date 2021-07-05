@@ -35,7 +35,7 @@ function App() {
      )}
      else if(weather == false) {
        return(
-        <div className="box">  <div className="background-1"> <img src={climaTempo}/> AGUARDE </div></div>
+        <div className="box">  <div className="background-1"> <img src={climaTempo}/> CARREGANDO </div></div>
        )
      }
      else{
@@ -43,7 +43,7 @@ function App() {
         <Fragment>
           <div className="box">
           <div className="background-1">
-         <div> <img src={climaTempo}/> <h3> Como está o clima hoje em suas coordenadas: ({weather['weather'][0]['description']})</h3></div>
+         <div> <img src={climaTempo}/> <h3> Como está o clima hoje em suas coordenadas : ({weather['weather'][0]['description']})</h3></div>
          <ul>
             <li> Temperatura atual: {weather['main']['temp']}°</li>
             <li>Temperatura máxima: {weather['main']['temp_max']}°</li>
