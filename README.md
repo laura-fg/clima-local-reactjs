@@ -1,6 +1,6 @@
 Acesse : https://clima-tempo.herokuapp.com/
 
-Aplicação utlizando axios, fazendo requisições com  a Weather API , sendo necessário permitir acesso a localização para carregamento do clima local.
+Aplicação utilizando axios, fazendo requisições com  a Weather API , sendo necessário permitir acesso a localização para carregamento do clima local.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
